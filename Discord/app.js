@@ -149,7 +149,7 @@ try {
       let targetValidators = Object.keys(subscribedValidators);
       targetValidators.forEach( (validator) => {
         let found = false;
-        let i = 0;
+        let i = 1;
         do {
           if (!isEmpty(json.result.data.value.block.last_commit.precommits[i])) {
             if (validator === json.result.data.value.block.last_commit.precommits[i].validator_address){
