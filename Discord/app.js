@@ -576,7 +576,7 @@ client.on("message", async message => {
   }
 
   // Commands
-  if(command === "cosmos" || command === "iris") {
+  if(command === "cosmos" || command === "iris" || command === "odin") {
     
     // node info
     if(args[0]+" "+args[1] == 'node info') {
